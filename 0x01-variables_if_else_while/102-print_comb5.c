@@ -13,7 +13,6 @@ int main(void)
 {
 
 	int p, q;
-	{
 
 	for (q = 0; p <= 98; p++)
 	{
