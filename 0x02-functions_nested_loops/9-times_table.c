@@ -9,7 +9,7 @@ void times_table(void)
         
 {       
         
-        int x, y, u, d;
+        int x, y, z, d;
         
         for (x = 0; x <=9; x++)
         {
