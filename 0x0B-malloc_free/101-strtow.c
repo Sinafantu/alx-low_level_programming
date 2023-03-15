@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-int word_len(chsr *str);
+int word_len(char *str);
 int count_words(char *str);
 char **strtow(char *str);
 
@@ -36,7 +36,7 @@ int count_words(char *str)
 {
 	int index = 0, words = 0, len = 0;
 
-	for (index = 0, *(str + index); index++)
+	for (index = 0; *(str + index); index++)
 		len++;
 
 	for (index = 0; index < len; index++)
@@ -69,7 +69,7 @@ char **strtow(char *str)
 	if (words == 0)
 		return (NULL);
 
-	string = malloc(sizeof(char *) * (words + 1));
+	strings = malloc(sizeof(char *) * (words + 1));
 	if (strings == NULL)
 		return (NULL);
 
