@@ -1,1 +1,1 @@
-0x13. c - more singly linked lists: 11 mandatory task and 4 advanced tasks
+0x13-more_singly_linked_lists
