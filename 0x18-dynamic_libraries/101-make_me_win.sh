@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P ../ https://github.com/SinaFantu/alx-low_level_programming/raw/main/0x18-dynamic_libraries/libhack.so
-export LD_PRELOAD=../libhack.so
+wget -q --output-document=$HOME/lib101-makemewin.so https://github.com/SinaFantu/alx-low_level_programming/raw/main/0x18-dynamic_libraries/lib101-makemewin.so
+export LD_PRELOAD=$HOME/lib101-makemewin.so
